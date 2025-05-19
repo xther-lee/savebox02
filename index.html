@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>오설록</title>
+    <!-- 파비콘 -->
+    <link rel="icon" href="img/fabicon.png" type="image/png">
+    <!-- 웹폰트 적용 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <!-- 스와이퍼 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <!-- jquery 라이브러리 최신버전 연결 -->
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- 외부스타일 시트 -->
+     <link rel="stylesheet" href="css/main.css" type="text/css">
+</head>
+<body>
+    <div id="wrap">
+         <header>
+            <div class="header-bg"></div>
+            <div class="center-box">
+                <div class="left-header">
+                    <div class="logo">
+                        <a href="index.html">
+                            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                            viewBox="0 0 200 40" style="enable-background:new 0 0 200 40;" xml:space="preserve">
+                            <style type="text/css">
+                                .st0{fill:#FFFFFF;}
+                            </style>
+                            <g>
+                                <path class="st0" d="M29.89,19.74c0,7.29-4.88,13.71-14.15,13.71c-8.72,0-13.85-6.05-13.85-13.69c0-7.21,5.37-13.55,14.08-13.55
+                                    C24.85,6.21,29.89,12.57,29.89,19.74z M7.68,19.67c0,5.16,2.8,9.42,8.34,9.42c5.63,0,8.07-4.57,8.07-9.28
+                                    c0-4.88-2.63-9.25-8.32-9.25C10.36,10.56,7.68,14.91,7.68,19.67z"/>
+                                <path class="st0" d="M38.71,25.14c0.81,2.51,2.76,4.21,7.36,4.21c4.41,0,5.84-1.48,5.84-3.41c0-2.05-1.28-3.25-7.18-4.25
+                                    c-8.68-1.48-10.4-4.27-10.4-7.79c0-5.02,4.81-7.67,10.83-7.67c8.82,0,11.11,4.56,11.41,7.47h-5.51c-0.42-1.45-1.37-3.38-6.07-3.38
+                                    c-3.26,0-5.08,1.06-5.08,3.05c0,1.71,1.07,2.66,6.31,3.58c9.77,1.72,11.31,4.7,11.31,8.43c0,4.41-3.48,8.04-11.95,8.04
+                                    c-7.89,0-11.58-3.54-12.39-8.29H38.71z"/>
+                                <path class="st0" d="M67.98,6.76v14.8c0,5.97,3.27,7.53,6.73,7.53c3.86,0,6.34-1.73,6.34-7.53V6.76h5.49v14.93
+                                    c0,8.11-4.45,11.76-11.99,11.76c-7.35,0-12.05-3.45-12.05-11.57V6.76H67.98z"/>
+                                <path class="st0" d="M93.34,6.76h5.48v21.68h15l-0.75,4.46H93.34V6.76z"/>
+                                <path class="st0" d="M117.5,6.76h5.48v21.68h15l-0.74,4.46H117.5V6.76z"/>
+                                <path class="st0" d="M167.9,19.74c0,7.29-4.88,13.71-14.15,13.71c-8.72,0-13.85-6.05-13.85-13.69c0-7.21,5.37-13.55,14.08-13.55
+                                    C162.85,6.21,167.9,12.57,167.9,19.74z M145.69,19.67c0,5.16,2.8,9.42,8.34,9.42c5.63,0,8.07-4.57,8.07-9.28
+                                    c0-4.88-2.63-9.25-8.32-9.25C148.37,10.56,145.69,14.91,145.69,19.67z"/>
+                                <path class="st0" d="M198.35,24.81c-1.3,4.56-4.83,8.64-12.79,8.64c-9.13,0-13.7-6.33-13.7-13.59c0-7.25,5.05-13.66,13.99-13.66
+                                    c7.86,0,11.71,4.33,12.55,8.67h-5.57c-0.73-1.9-2.36-4.34-7.04-4.34c-5.25,0-8.14,3.95-8.14,9.12c0,5.17,2.73,9.49,8.17,9.49
+                                    c4.1,0,5.85-1.66,6.99-4.34H198.35z"/>
+                            </g>
+                            </svg>
+                        </a>
+                    </div>
+                    <nav>
+                        <div class="close">
+                            <a href="#">
+                                <img src="img/02close.png" alt="닫기버튼">
+                            </a>
+                        </div>
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    제품
+                                    <span><img src="img/06-button.png" alt="아래 화살표"></span>
+                                </a>
+                                <ul class="sub">
+                                    <li><a href="#">신제품</a></li>
+                                    <li><a href="#">베스트</a></li>
+                                    <li><a href="#">차</a></li>
+                                    <li><a href="#">다과</a></li>
+                                    <li><a href="#">라이프스타일</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    이벤트
+                                    <span><img src="img/06-button.png" alt="아래 화살표"></span>
+                                </a>
+                                <ul class="sub">
+                                    <li><a href="#">특가찬스</a></li>
+                                    <li><a href="#">특별한 선물</a></li>
+                                    <li><a href="#">가벼운 선물</a></li>
+                                    <li><a href="#">감사의 달</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    브랜드
+                                    <span><img src="img/06-button.png" alt="아래 화살표"></span>
+                                </a>
+                                <ul class="sub">
+                                    <li><a href="#">브랜드 스토리</a></li>
+                                    <li><a href="#">티라이프</a></li>
+                                    <li><a href="#">오설록 1979</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    단체 및 기업 구매
+                                    <span><img src="img/06-button.png" alt="아래 화살표"></span>
+                                </a>
+                                <ul class="sub">
+                                    <li><a href="#">문의처</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <div class="nav-bg">
+                            <img src="img/04SECTION_MENU04.jpg" alt="">
+                        </div>
+                    </nav>
+                </div>
+                <div class="right-header">
+                    <div class="search">
+                    <a href="#">
+                        <svg id="Glyph" version="1.1" viewBox="0 0 32 32" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M27.414,24.586l-5.077-5.077C23.386,17.928,24,16.035,24,14c0-5.514-4.486-10-10-10S4,8.486,4,14  s4.486,10,10,10c2.035,0,3.928-0.614,5.509-1.663l5.077,5.077c0.78,0.781,2.048,0.781,2.828,0  C28.195,26.633,28.195,25.367,27.414,24.586z M7,14c0-3.86,3.14-7,7-7s7,3.14,7,7s-3.14,7-7,7S7,17.86,7,14z" id="XMLID_223_"/></svg>
+                    </a>
+                    </div>
+                    <div class="cart">
+                    <a href="#">
+                        <svg class="feather feather-shopping-cart" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>
+                    </a>
+                    </div>
+                    <!-- pc에서는 안보임, mobile에서는 보임 -->
+                     <div class="menu">
+                        <a href="#"><img src="img/03icon.png" alt="모바일 메뉴"></a>
+                     </div>
+                </div>
+            </div>
+            <!-- 서브메뉴 배경 -->
+            <div class="sub-bg">
+                <a href="#"><img src="img/teahouse_incheon.jpg" alt="sub-bg"></a>
+            </div>
+         </header>
+         <section class="s1">
+            <!-- 유튜브 영상 넣기 -->
+                <iframe src="https://www.youtube.com/embed/VMoXcHUtAMA?autoplay=1&mute=1&controls=0&loop=1&playlist=VMoXcHUtAMA&start=3&end=67" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <div class="text">
+                    <h1>자연 그대로 담은 차, <img src="img/001.logo.png" alt=""></h1>
+                </div>
+         </section>
+         <section class="s2">
+            <div class="center-box2">
+                <h2>BRAND STORY<hr></h2>
+                <p>1979년부터 <br> 지금까지의 오설록</p>
+                <div class="acc">
+                    <ul>
+                        <li>
+                            <div>
+                            <a href="#">
+                                <h3>BRAND STORY</h3>
+                                <p>오설록만의 브랜드 스토리를 알려드립니다. <br>
+                                    전통과 혁신이 결합된 오설록만의 <br> 독특한 차 문화와 가치를 경험해 보세요.
+                                </p>
+                            </a>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                            <a href="#">
+                                <h3>TEA LIFE</h3>
+                                <p>프리미엄으로 구성된 최고급 차를 맛볼 수 있습니다.<br>오설록의 차는 신선하고 고유한 풍미를 자랑하며,<br>일상에 특별한 순간을 선사합니다.</p>
+                            </a>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                            <a href="#">
+                                <h3>BRAND NAME</h3>
+                                <p>오설록 이름에 얽힌 이야기.<br>"오설록"은 차의 고장 제주도의 청정 자연을 담아내며,<br> 차 브랜드의 가치를 깊이 있게 전합니다.</p>
+                            </a>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                            <a href="#">
+                                <h3>TEA MUSEUM</h3>
+                                <p>티 뮤지엄에서 차의 역사에 대해 알아보세요.<br>전 세계 차 문화와 오설록의 차가 가진 의미를<br>직접 보고, 듣고, 느낄 수 있는 공간입니다.</p>
+                            </a>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                            <a href="#">
+                                <h3>INTRODUCTION</h3>
+                                <p>처음인 사람들을 위한 차 입문서.<br> 차에 대해 잘 모르는 분들도 쉽게 시작할 수 있도록, <br>다양한 차의 특징과 음용법을 안내합니다.</p>
+                            </a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+         </section>
+         <section class="s3">
+            <div class="center-box2">
+                <h2>이달의 TEA<hr></h2>
+                <p>오늘도 수고한 당신께<br> 이달에 마시면 더 맛있는 차 한잔</p>
+                <div class="banner">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <img src="img/03SECTION_MENU01.png" alt="">
+                                <p>[마키토이] 해차 올인원 세트</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="img/03SECTION_MENU02.png" alt="">
+                                <p>티 베리에이션 에센스 6종 42입</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="img/03SECTION_MENU03.png" alt="">
+                                <p>차의 정원 9종 27입</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+         </section>
+         <section class="s4">
+            <div class="center-box2">
+                <h2>EXPLORE OUR STORES<hr></h2>
+                <p>오설록을 가까운 매장에서<br> 체험해 보세요</p>
+            </div>
+            <!-- swiper plugin 사용하여 슬라이드 구현 -->
+            <div class="swiper-box">
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide slide1">
+                            <a href="#">
+                                <div class="rect">
+                                    <p>티하우스 북촌점</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide slide2">
+                            <a href="#">
+                                <div class="rect">
+                                    <p>오설록 1979</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide slide3">
+                            <a href="#">
+                                <div class="rect">
+                                    <p>티하우스 MMCA</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide slide4">
+                            <a href="#">
+                                <div class="rect">
+                                    <p>제주 오설록 티뮤지엄</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination">
+                        <div class="swiper-paginnation-bullet"></div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+            </div>
+         </section>
+         <section class="s5">
+            <div class="text-box">
+                <h2>EVERYDAY THANKS GIFT DAY!</h2>
+                <p>선물하기 좋은 오설록의 차들을 소개합니다.</p>
+                <button>더 알아보기></button>
+            </div>
+         </section>
+         <footer>
+            <div class="center-box">
+                <div class="up-footer">
+                    <div class="left-footer">
+                        <ul>
+                            <li>
+                                <a href="#"><p>고객 상담 센터/주문 배송 문의</p></a>
+                                <div class="sub-footer">
+                                <ul>
+                                    <li><a href="#"><p>080-805-5555</p></a></li>
+                                    <li><a href="#"><p>help@osulloc.com</p></a></li>
+                                    <li><a href="#"><p>평일 09:00 - 18:00</p></a></li>
+                                    <li><a href="#"><p>점심 (12:00 - 13:00)</p></a></li>
+                                </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="#"><p>특판 및 대량구매</p></a>
+                                <div class="sub-footer">
+                                <ul>
+                                    <li><a href="#"><p>mall@osulloc.com</p></a></li>
+                                    <li><a href="#"><p>카카오톡 ID : osullocmall</p></a></li>
+                                    <li><a href="#"><p>평일 09:30 - 17:00</p></a></li>
+                                    <li><a href="#"><p>점심 (11:30 - 13:00)</p></a></li>
+                                </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="#"><p>회원 혜택</p></a>
+                                <div class="sub-footer">
+                                <ul>
+                                    <li><a href="#"><p>1:1 문의</p></a></li>
+                                    <li><a href="#"><p>오설록 멤버십 혜택</p></a></li>
+                                    <li><a href="#"><p>뷰티포인트 추후적립</p></a></li>
+                                </ul>
+                                </div>
+                            </li> 
+                            <li>
+                                <a href="#"><p>소셜미디어</p></a>
+                                <div class="sub-footer">
+                                <ul>
+                                    <li><a href="#"><p>카카오톡 플러스친구</p></a></li>
+                                    <li><a href="#"><p>인스타그램</p></a></li>
+                                    <li><a href="#"><p>유튜브</p></a></li>
+                                    <li><a href="#"><p>틱톡</p></a></li>
+                                    <li><a href="#"><p>X(구 트위터)</p></a></li>
+                                </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="right-footer">
+                        <div class="family">
+                            <div class="family-title">
+                                Family Site 
+                                <span>
+                                    <img src="img/06-button.png" alt="패밀리사이트 버튼">
+                                </span>
+                            </div>
+                            <div class="family-list">
+                                <ul>
+                                    <li>
+                                        <a href="#">오설록</a></li>
+                                    <li><a href="#">오설록 브랜드관</a></li>
+                                    <li><a href="#">오설록 | 아모레퍼시픽</a></li>
+                                    <li><a href="#">다다일상</a></li>
+                                    <li><a href="#">TEA MUSEUM</a></li>
+                                    <li><a href="#">TEA LIFE</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                            <div class="info">
+                            <ul>
+                                <li><a href="#"><p>회사소개</p></a></li>
+                                <li><a href="#"><p>서비스 이용약관</p></a></li>
+                                <li><a href="#"><p>개인정보 처리방침</p></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="down-footer">
+                <hr>
+                <div class="text"> 
+                <h5>COPYRIGHT © 2024 OSULLOC. ALL RIGHT RESERVED</h5>
+                <address>(주)오설록	대표이사: 서혁제	주소: 제주특별자치도 서귀포시 안덕면 신화역사로 15 (오설록 티뮤지엄) 사업자등록번호: 390-87-01499	통신판매업신고번호: 2024-제주안덕-0075	호스팅제공자: (주)오설록<br>
+                (주)오설록은 오설록 브랜드를 제외한 입점 브랜드에 대해서는 통신판매중개자이며 통신판매의 당사자가 아닙니다. 따라서 입점판매자가 등록한 상품정보 및 거래에 대해서는 책임을 지지 않습니다.</address>
+                </div>
+            </div>
+         </footer>
+    </div>
+    <script>
+        $(function(){
+            // 접속한 기기의 가로길이를 구해서 변수 width에 저장
+            let width=$(window).width();
+            // 만약 접속한 기기의 가로길이가 480px보다 크면 pc버전,
+            // 만약 접속한 기기의 가로길이가 480px보다 작으면 모바일 버전의 
+            // 내비게이션 실행
+            if(width > 480){
+                // header의 nav(내비게이션)의 주메뉴에 마우스 오버하면 서브메뉴와 서브메뉴 배경 내려오는 애니메이션과 header의 배경색 변경, 메뉴 글자색 변경, right-header의 아이콘색 변경, 로고색 변경
+                $("nav > ul > li > a").on("mouseenter",function(){
+                    $(".sub").css("margin-top", "3rem");
+                    $("header").addClass("active");
+                    $(".sub").stop().slideDown();
+                    $(".sub-bg").stop().slideDown();
+                });
+                // header에서 마우스 아웃하면 로고색, 메뉴글자색, 아이콘색, 원래대로 변경되고, 서브메뉴와 서브메뉴배경 들어감
+                $("header").on("mouseleave",function(){
+                    $("header").removeClass("active");
+                    $(".sub").stop().slideUp();
+                    $(".sub-bg").stop().slideUp();
+                });
+            }else{
+                // 모바일 버전 세로 아코디언 메뉴 애니메이션
+                $("nav > ul > li > a").on("click",function(){
+                $(this).next().slideToggle();
+                $(this).find("span").toggleClass("active");
+                $("nav > ul > li > a").not(this).next().slideUp();
+                $("nav > ul > li > a").not(this).find("span").removeClass("active");
+
+                return false;
+                });
+            }
+            // 메인페이지를 아래로 스크롤하면 header의 배경이 반투명해지고, 로고색과 메뉴글자색과 아이콘색이 변경됨
+            $(window).on("scroll",function(){
+                let secTop = $(".s2").offset().top;
+                let scrollTop = $(window).scrollTop();
+                if(scrollTop > secTop){
+                    $(".header-bg").show();
+                    $("header").addClass("active2");
+                }else{
+                    $(".header-bg").hide();
+                    $("header").removeClass("active2");
+                }
+            });
+            // 모바일 내비게이션(메뉴 버튼 클릭하면 내비게이션이 오른쪽에서 나오고, 닫기 버튼 클릭하면 내비게이션이 오른쪽으로 들어감)
+            $(".menu").on("click", function(){
+                $("nav").animate({
+                    right:"-5%"
+                });
+            });
+            $(".close").on("click", function(){
+                $("nav").animate({
+                    right:"-105%"
+                });
+            });
+            const swiper = new Swiper('.swiper', {
+                loop: true,
+                slidesPerView:3,
+                spaceBetween:70,
+                centeredSlides:true,        
+                autoplay: {
+                    delay:5000
+                },
+                pagination: {
+                    el: '.swiper-pagination',
+                }, 
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                },
+                breakpoints:{
+                    360:{
+                        slidesPerView:1,
+                        spaceBetween:0
+                    },
+                    480:{
+                        slidesPerView:1,
+                        spaceBetween:0
+                    },
+                    768:{
+                        slidesPerView:1.6,
+                        spaceBetween:50
+                    },
+                    1024:{
+                        slidesPerView:1.6,
+                        spaceBetween:70
+                    },
+                    1400:{
+                        slidesPerView:3,
+                        spaceBetween:70
+                    },
+                    1600:{
+                        slidesPerView:3,
+                        spaceBetween:70
+                    },
+                    1920:{
+                        slidesPerView:3,
+                        spaceBetween:70
+                    }
+                }
+            });
+            // family-title을 클릭하면 family-list 나타남
+            let op = 0;
+            $(".family-title").on("click",function(){
+                if(op == 0){
+                    op=1;
+                    $(".family-list").show();
+                }else{
+                    op=0;
+                    $(".family-list").hide();
+                }
+            });
+            // family-title을 다시한번 클릭하거나 다른 곳을 클릭하면 family-list 사라짐
+            $(document).on("click",function(event){
+                if(!$(event.target).closest(".family-title").length){
+                    op = 0;
+                    $(".family-list").hide();
+                }
+            });
+        });
+    </script>
+</body>
+</html>
