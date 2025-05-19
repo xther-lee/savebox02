@@ -978,6 +978,7 @@ footer address {
         margin-bottom: 3.5rem;
     }
     .s3 .banner ul li {
+        width: 48%;
         height: 155px;
     }
     .s3 .banner ul li a img {
